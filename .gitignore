@@ -1,0 +1,35 @@
+# Diretórios do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado do Terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# Logs do Terraform
+crash.log
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Arquivos de saída do Terraform
+*.tfplan
+*.tfplan.json
+
+# Configurações locais do Terraform
+.terraformrc
+terraform.rc
+
+# Arquivos de variáveis auto-gerados
+variables.tf.auto.tfvars
+
+# Diretórios de configuração IDE/editor
+.vscode/
+.idea/
+
+# Outros arquivos de backup e temporários
+*~
+*.bak
+*.swp
+*.tmp
